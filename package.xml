@@ -1,0 +1,21 @@
+<package format="3">
+  <name>turtle_controller_pkg</name>
+  <version>0.0.0</version>
+  <description>Turtle controller package</description>
+  <maintainer email="zion@todo.todo">zion</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>turtlesim</depend>
+  <!-- Add other dependencies here -->
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
